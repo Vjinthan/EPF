@@ -13,6 +13,7 @@ public class Db_conn  {
             return DriverManager.getConnection(URL,USER,PASS);
         } catch (ClassNotFoundException e){
             throw new SQLException(e);
+            System.out.println("hii");
         }
     }
 }
